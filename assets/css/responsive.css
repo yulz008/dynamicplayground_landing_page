@@ -207,6 +207,8 @@
 	#particles-bg .slider-caption {
 	  top: 20px;
 	  max-width: 330px;
+	  left: 20px;
+
 	}
 	.portfolio-menu.hover-1 ul li {
 	  margin: 0 10px 10px;
