@@ -192,97 +192,44 @@
 
 /* Small Mobile :320px. 
 ====================================*/
-@media (max-width: 767px) {
+@media (max-width: 380px) {
 	
-	.container{
-		width:300px;
+	.container {width:250px}
+	.masonry-style.style4 .percent-25,
+	.portfolio-area.column-4 .percent-25,
+	.percent-66,
+	.percent-33{
+	  width: 50%;
 	}
-	.mobi-mb-30{
-		margin-bottom: 30px;
+	#particles-bg {
+	  height: 600px;
 	}
-	.mobi-mb-50{
-		margin-bottom: 50px;
-	}
-    .section-ptb {
-        padding: 80px 0;
-    }
-	.project-info,
-	.contact-area .contact-form,
-    .percent-20,
-    .percent-25,
-    .percent-30,
-    .percent-33,
-    .percent-50 {
-        width: 100%;
-    }
-	br{
-		display: none;
-	}
-	.portfolio-menu ul li {
-	  margin: 0 12px 10px 12px;
-	}
-	.portfolio-menu ul.mb-70 {
-	  margin-bottom: 30px;
-	}
-	.portfolio-menu.hover-1 ul {
-	  margin: 0 -8px 20px;
+	#particles-bg .slider-caption {
+	  top: 20px;
+	  max-width: 330px;
 	}
 	.portfolio-menu.hover-1 ul li {
-	  margin: 0 16px 10px 16px;
+	  margin: 0 10px 10px;
 	}
-	.testimonial-area .pt-30{
-		padding-top: 0;
-	}
-	.cta-content .pull-right {
-	  float: left !important;
-	  margin: 15px 0 0;
-	}
-	/* Pages */
-	.breadcrumbs-title.pt-90 {
-	  padding-top: 50px;
-	}
-	.breadcrumbs-title.pb-80 {
-	  padding-bottom: 30px;
-	}
-	.style1 .clients li {
-	  width: 50%;
-	  padding: 10px!important;
-	  height: 125px;
+	.style1 .clients li:last-child {
 	  text-align: center;
 	}
 	.hero-img li:first-child {
-	  margin-bottom: 30px;
-	  margin-right: 0;
+	  margin-bottom: 0;
 	}
-	.hero-text {
-	  padding: 10px 0 0;
+	.hero-img ul {
+	  margin: 0 -5px;
 	}
-	.style2 .hero-text {
-	  padding: 0 0 30px;
-	  margin-top: 0;
+	.hero-img li {
+	  padding: 0 5px;
+	  width: 50%;
 	}
-	.video-thumb {
-	  margin-left: 0;
-	  width: 100%;
+	.style-3.column-3 .project-title {
+	  bottom: 10px;
+	  padding: 15px 0 15px 15px;
 	}
-	.project-sidebar.pl-40,
-	.contact-area.style2 .plr-35{
-	  padding: 0px;
-	}
-	.portfolio-details .pb-80{
-		padding-bottom: 50px;
-	}
-	.style-3.column-2 .project-title h4,
-	.style-2.column-2 .project-title h4,
-	.style-1.column-2 .project-title h4 {
+	.portfolio-area.style4 .project-title h3 {
 	  font-size: 20px;
-	}
-	.style-1.column-2 .project-title {
-	  padding: 20px 0;
-	  width: calc(100% - 40px);
-	}
-	.style-2.column-2 .project-title p {
-	  font-size: 16px;
 	}
 
 }
